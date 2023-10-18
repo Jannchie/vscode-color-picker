@@ -1,17 +1,18 @@
-# vscode-color-picker README
+# vscode-better-color-picker README
 
 A simple Color picker for vscode that lets you use vscode's css color picker in other documents
 
 ![color-picker-preview](https://i.imgur.com/dG1tnN3.png, "color-picker-preview")
 
-* To make it work for your preferred language, just add a `vscode-color-picker.languages` entry in settings.json, with VSCode's identifier string for the language, in the list. For ex.
+* To make it work for your preferred language, just add a `vscode-better-color-picker.languages` entry in settings.json, with VSCode's identifier string for the language, in the list. For ex.
   ```json
-    "vscode-color-picker.languages": [
-        "python",
-        "javascript",
-        "typescript"
-    ],
-    ...
+  {
+    "vscode-better-color-picker.languages": [
+      "python",
+      "javascript",
+      "typescript"
+    ]
+  }
   ```
  and then make sure to reload the window for the service to be intialized properly.
  
@@ -20,7 +21,7 @@ A simple Color picker for vscode that lets you use vscode's css color picker in 
 
 ### How do i stop it from running in languages i don't want it in?
 
-Just remove the language entry from `vscode-color-picker.languages` in settings.json.
+Just remove the language entry from `vscode-better-color-picker.languages` in settings.json.
 
 
 ### What are the languages i can add to the extension?
